@@ -13,12 +13,6 @@ This project is a comprehensive solution for the Kaggle competition "Titanic: Ma
 
 The data comes directly from the Kaggle competition and is available [at this link](https://www.kaggle.com/competitions/titanic). The dataset contains information about passengers, such as age, sex, ticket class, etc.
 
-## 📁 Project Structure
-
-The repository is organized as follows:
-Of course. Here is the complete README.md for your Titanic project, written in English.
-Markdown
-
 # Titanic: Survival Analysis and Prediction
 
 This project is a comprehensive solution for the Kaggle competition "Titanic: Machine Learning from Disaster". The main goal is to build a predictive model that determines whether a passenger survived the Titanic disaster based on their personal data.
@@ -38,6 +32,7 @@ The data comes directly from the Kaggle competition and is available [at this li
 
 The repository is organized as follows:
 
+```
 ├── data/                  # Raw train.csv and test.csv files
 ├── logistic-regression-model/ # Saved logistic regression model
 ├── naive-model/           # Saved Gaussian Naive Bayes model
@@ -45,6 +40,7 @@ The repository is organized as follows:
 ├── XGBoost-model/         # Saved, best-performing XGBoost model
 ├── requirements.txt       # List of Python dependencies to install
 └── visualizations.ipynb   # Jupyter Notebook with data analysis, visualizations, and the modeling process
+```
 
 ## ⚙️ Methodology
 
@@ -93,5 +89,7 @@ A comparison of the models' performance on the test set on Kaggle is presented b
 * Pandas & NumPy
 * Scikit-learn
 * XGBoost
+* Optuna
+* Matplotlib & Seaborn
 * Matplotlib & Seaborn
 * Jupyter Notebook
