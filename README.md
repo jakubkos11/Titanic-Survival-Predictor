@@ -91,5 +91,4 @@ A comparison of the models' performance on the test set on Kaggle is presented b
 * XGBoost
 * Optuna
 * Matplotlib & Seaborn
-* Matplotlib & Seaborn
 * Jupyter Notebook
